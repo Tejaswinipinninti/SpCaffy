@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Times new Roman";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.nav-item{
+    transition:all 2s linear;
+}
+
+.nav-item> .nav-link:hover{
+    text-decoration:underline;
+    color:rgb(245,132,4);
+    text-decoration-color:rgb(245,132,4);
+    text-decoration-thickness:3px;
+
+}
+
+body{
+    
+}
+.header{
+    text-align: center;
+    color: white;
+    background-image: url('https://img.freepik.com/free-photo/partial-view-coffee-cup-beans-wooden-table_23-2147666387.jpg?size=626&ext=jpg&ga=GA1.1.77093878.1715677690&semt=ais_user');
+    height: 400px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+
+}
+
+.card-ft{
+    transition:all .3s linear;
+}
+.card-ft:hover{
+    transform:scale(.98);
+}
+.form-bg{
+    background-color:brown!important;
+}
+
+.carousel-item>img{
+    width:100%!important;
+    height:50vh;
+}
+
+.btn:hover{
+    transform:scale(.98)
+}
+.seat{
+    height:400px !important;
+    width:100%rem;
+}
+
+/*@media screen and (min-width:200px) and (max-width:576px){
+    .header{
+        text-align: center;
+        color: white;
+        background-image: url('https://img.freepik.com/free-photo/partial-view-coffee-cup-beans-wooden-table_23-2147666387.jpg?size=626&ext=jpg&ga=GA1.1.77093878.1715677690&semt=ais_user');
+        height: 400px;
+        background-size:100%;
+        background-repeat: no-repeat;
+        
+    
+    }
+    }*/
